@@ -1,0 +1,33 @@
+GIT Comandos
+git help ---> te explica los diferentes comandos que hay
+git --version ---> nos devuelve la versión que tenemos instalada de git
+git checkout -- . ---> recupera el código de la versión anterior de git (clona la versión que había)
+git config --global user.name "Alex Ramón" ---> Con esto queda registrado quien ha hecho el cambio al subir los cambios
+git config --global user.email "alexragraph@gmail.com" ---> lo mismo pero con el mail
+git config --global -e --> te muestra en la configuración de git los datos asignados que aparezcan para cuando hagamos un cambio
+git config --global core.editor "code --wait" --> Esto le dice a Git que use VS Code cada vez que necesite que edites algo (como mensajes de commit o conflictos de merge).
+git config --global --unset core.editor ---> para volver al editor por defecto de Git
+git status ---> me devuelve el estado de los archivos en el repositorio del proyecto
+
+
+control + L (se limpia la terminal)
+
+git config --global --->Configuración de git, para configurar un usuario con identificacion de correo para 
+
+
+
+
+CVS
+sistema de control de versiones (Control Version System)
+
+Árbol de archivos
+cuando hago un commit, hago una confirmación y guardo los cambios
+Los archivos de Git se encuentran en uno de estos tres estados:
+Unmodified--> Modified --->Stage
+Commit
+
+
+Depositos de Git
+Depósito o estado inicial o Working Area (donde nosotros hacemos cambios)
+Depósito o estado intermedio o Stage area (preparamos nuestros archivos para añadir al deposito final, es una especie de memoria caché)
+Depósito o estado final o HEAD o Repositorio (lugar donde se almacenan los archivos)

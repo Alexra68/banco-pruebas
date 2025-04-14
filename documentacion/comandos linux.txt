@@ -1,0 +1,16 @@
+pwd --> nos dice donde nos encontramos
+ls --> nos muestra lo que hay en la carpeta donde nos encontramos
+cd  --> para acceder a una carpeta dentro del directorio ( cd Escritotio/)
+si hago otra vez cd y no selecciono nada vuelvo hacia atras
+su --> para acceder a usuario de administrador, te pide contraseña
+passwd + usuario para cambiar contraseña
+exit --> sales del usuario
+clear --> limpiar la pantalla
+mkdir --> para crear una carpeta
+nano --> para crear un archivo
+rm --> para eliminar el archivo
+rmdir --> eliminar directorio
+cp --> + añadir la ruta para copiar un archivo dentro de otro, por ejemplo cp /home/aramon/Desktop/alexra.txt /home/aramon/Docs/
+chmod --> para añadir todos lo permisos al archivo
+
+
