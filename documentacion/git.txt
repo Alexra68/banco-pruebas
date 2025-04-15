@@ -8,6 +8,10 @@ git config --global -e --> te muestra en la configuración de git los datos asig
 git config --global core.editor "code --wait" --> Esto le dice a Git que use VS Code cada vez que necesite que edites algo (como mensajes de commit o conflictos de merge).
 git config --global --unset core.editor ---> para volver al editor por defecto de Git
 git status ---> me devuelve el estado de los archivos en el repositorio del proyecto
+git commit -m "Mensaje" ---> esto es para hacer el commit, hay que añadir un mensaje
+git log ---> nos permite verificar cuales son los commits que tiene un repositorio
+git log --oneline ---> esto sirve para ver el historial de commits con el hash y el mensaje del commit
+git log --decorate --all --graph ----> esto sirve para ver el historial de commits con las ramas más señalizadas
 
 git branch -m master main              # Renombra la rama local
 git push -u origin main                # Sube la nueva rama
