@@ -9,6 +9,9 @@ git config --global core.editor "code --wait" --> Esto le dice a Git que use VS 
 git config --global --unset core.editor ---> para volver al editor por defecto de Git
 git status ---> me devuelve el estado de los archivos en el repositorio del proyecto
 
+git branch -m master main              # Renombra la rama local
+git push -u origin main                # Sube la nueva rama
+git push origin --delete master        # (opcional) Borra la rama 'master' del remoto
 
 control + L (se limpia la terminal)
 
